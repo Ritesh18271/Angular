@@ -1,0 +1,16 @@
+
+<h2> Directives Assignment </h2>
+<br>
+
+
+ <button id="btn" (click)="toggleDisplayDetails()"> Display Details </button>
+ <p id="par" *ngIf="isShow"> {{password}} </p>
+  <p id="para" *ngFor="let q of countArray; index as ApplyColor "
+   [ngStyle]="{backgroundColor:changeColor(ApplyColor)}"
+   [ngClass]="{'setColor': ApplyColor>=limit}"
+  >{{q}} </p>
+
+
+
+
+

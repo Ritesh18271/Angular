@@ -1,0 +1,40 @@
+.example-form {
+  min-width: 150px;
+  max-width: 500px;
+  width: 100%;
+  display: flex;
+}
+
+.example-full-width {
+  width: 80%;
+  margin:0 10px 0 10px;
+}
+
+.form-control{
+  width: 200px;
+  background-color: chartreuse;
+  text-shadow: 1px 1px 1px rgb(13, 13, 13);
+}
+.det{
+  text-shadow: 2px 2px 3px black;
+}
+.fileds{
+  color: white;
+  font-family: cursive;
+}
+.login-page{
+  font-family: cursive;
+  background-color: darkgrey;
+  border-radius: 20px;
+  width: 400px;
+  
+}
+.button{
+ border-radius: 5px;
+ color: rgb(0, 9, 9);
+ background-color: chartreuse;
+ box-shadow: 2px 4px 3px black;
+}
+.button_text{
+  text-shadow: 1px 1px 1px rgb(13, 13, 13);
+}

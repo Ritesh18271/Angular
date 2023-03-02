@@ -1,0 +1,14 @@
+<h2 id="heading"> Output Of Child to Parent </h2>
+<button class="onClick" (click)="ChildToP(this.showdetails=!this.showdetails)"> Click me </button>
+
+<div id="data" [hidden]="!showdetails">
+<br>
+ Employee Name: {{ objData.EmpName}}
+<br>
+<br>
+ Employee Id: {{ objData.EmpId}}
+<br>
+<br>
+ Employee City: {{ objData.EmpCity}}
+</div>
+

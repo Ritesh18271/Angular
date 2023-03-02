@@ -1,0 +1,47 @@
+
+
+.container{
+  height: 500px;
+  width: 500px;
+  margin-top: 20px;
+  background-color: gray;
+  border-radius: 30px;
+  box-shadow: 10px 10px 12px;
+}
+.labels{
+ margin-left: 190px;
+ color: white;
+ font-family: cursive;
+}
+h3{
+  text-align: center;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  background-color: gold;
+  width: 290px;
+  margin-left: 100px;
+  border-radius: 10px;
+  box-shadow: 4px 3px 5px black;
+}
+.labeld{
+  margin-left: 210px;
+  color: white;
+  font-family: cursive;
+}
+.text-danger{
+  margin-left: 100px;
+  color: coral;
+}
+.btn{
+  width: 90px;
+  height: 40px;
+  background-color: blue;
+  color: azure;
+  margin-left: 180px;
+  box-shadow: 2px 2px 3px black;
+}
+.form-control{
+  border-radius: 20px;
+  width: 290px;
+  margin-left: 90px;
+}

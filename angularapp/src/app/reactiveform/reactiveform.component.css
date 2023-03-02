@@ -1,0 +1,80 @@
+
+
+/* .form-group{
+   margin-left: 150px;
+    margin-top: 20px;
+    width: 210px;
+
+}
+.btn{
+   background-color: blue;
+   color:white;
+  margin-left: 200px;
+  width: 100px;
+  box-shadow: 4px 5px 4px rgb(39, 38, 38);
+
+}
+h3{
+  text-align: center;
+  font-family: cursive;
+  font-weight: bold;
+  margin-top: 7px;
+  text-shadow: 2px 2px 3px rgb(15, 15, 16);
+  color: rgb(247, 248, 247);
+  background-color: gold;
+  width: 230px;
+  margin-left: 160px;
+  border-radius: 20px ;
+  box-shadow: 4px 5px 4px rgb(71, 70, 70);
+}
+
+.label{
+ margin-left: 80px;
+ font-family: cursive;
+ font-weight: bold;
+}
+.content{
+  margin-top: 60px;
+  border: 1px solid black;
+  width: 550px;
+  height: 420px;
+  border-radius: 30px;
+  background-color:aquamarine;
+  box-shadow: 10px 10px 14px  rgb(55, 54, 54);
+
+}
+
+.form-control{
+  border-radius: 40px;
+  margin-left: 23px;
+  background-color: rgb(255, 251, 251);
+  color: rgb(0, 0, 0);
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+} */
+.btn-add {
+  font-size: 12px;
+  font-weight: 700;
+  color: rgb(0, 0, 0.397);
+}
+
+.btn-add i {
+    font-size: 33 px;
+    line-height: 12px;
+    display: inline-block;
+    position: relative;
+    top: 6px;
+    margin-right: 3px;
+}
+
+.btn-add:hover {
+    border: 1px solid #007bff;
+    background: #fff;
+    color: #007bff;
+}
+
+
+input.ng-invalid.ng-touched,
+select.ng-invalid.ng-touched{
+    border: 1px solid red;
+    box-shadow: 0 0 13px #ff000021;
+}

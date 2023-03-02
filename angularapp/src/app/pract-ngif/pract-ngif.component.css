@@ -1,0 +1,39 @@
+
+
+.card{
+  margin-left: 450px;
+  border: 1px solid black;
+  width: 400px;
+}
+h2{
+  text-align: center;
+  margin-top: 10px;
+  margin-bottom: 20px;
+  color: rgb(228, 214, 12);
+  font-weight: bolder;
+  text-shadow: 10px 6px 5px black;
+  font-family:serif;
+  background-color: gray;
+}
+p{
+  font-weight: bolder;
+  margin-left: 120px;
+}
+h5{
+  margin-left: 125px;
+  margin-top: 10px;
+}
+.card-title{
+  font-weight: bold;
+  font-family: cursive;
+  color: rgb(12, 6, 82);
+
+
+}
+#des{
+  margin-left: 40px;
+  margin-top: 5px;
+  font-weight: bold;
+  color: orangered;
+}
+

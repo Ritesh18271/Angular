@@ -1,0 +1,50 @@
+.login-page {
+    max-width: 350px;
+    margin: 50px auto 0 auto;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: rgb(187, 189, 192);
+    box-shadow: 10px 10px 14px rgb(69, 68, 68);
+    border-radius: 20px;
+}
+
+.login-form{
+    display: flex;
+    flex-direction: column;
+    font-size: bold;
+    font-family: cursive;
+}
+
+.form-val {
+    margin-top: 10px;
+
+
+}
+.value{
+  background-color: rgb(187, 189, 192);
+  margin-bottom: 2px;
+  border-radius: 5px;
+  border: 1px solud black;
+}
+.value1{
+  background-color: rgb(187, 189, 192);
+  margin-bottom: 2px
+}
+.btn{
+  width: 80px;
+ margin-left: 120px;
+ box-shadow: 3px 3px 5px black;
+ background-color: chartreuse;
+ text-shadow: 2px 2px 2px black;
+}
+.form-control{
+  margin-top: 5px;
+  background-color: rgb(211, 203, 63);
+}
+.title{
+  text-align: center;
+  margin-bottom: 5px;
+  font-family: fantasy;
+}
+.error{
+  color: white;
+}
