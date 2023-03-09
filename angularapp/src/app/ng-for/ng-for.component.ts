@@ -1,5 +1,6 @@
 import { Component, OnInit } from '@angular/core';
-import { Movies } from './models/movies';
+import { Movies } from '../models/movies';
+
 
 @Component({
   selector: 'app-ng-for',

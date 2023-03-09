@@ -1,6 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 import { FormArray, FormBuilder, FormControl, FormGroup, Validators } from '@angular/forms';
 import { Observable } from 'rxjs';
+import { MyserviceService } from '../services/myservice.service';
 
 @Component({
   selector: 'app-reactiveform',
@@ -12,11 +13,12 @@ export class ReactiveformComponent implements OnInit {
   notAllowedEmail='codemindtechnology@gmail.com';
   isSubmitted: boolean = false;
   myReactiveForm: FormGroup;
-  constructor(private _fb: FormBuilder) {
+  showAge: number;
+  constructor(private _fb: FormBuilder, private objService:MyserviceService) {
     this.createForm();
   }
   ngOnInit() {
-
+    this.objService.print();
     // setTimeout(() => {
     //   this.myReactiveForm.setValue({
     //     'userDetails' : {
@@ -37,6 +39,13 @@ export class ReactiveformComponent implements OnInit {
     //     }
     //   })
     // },5000)
+  }
+  ageCalculator(){
+    let objMyserviceService = new MyserviceService();
+    this.showAge=objMyserviceService.ageCalculator(this.age);
+  }
+  age(age: any): number {
+    throw new Error('Method not implemented.');
   }
   createForm()
   {

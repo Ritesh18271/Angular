@@ -1,11 +1,6 @@
+
+
 <!--The content below is only a placeholder and can be replaced.-->
-
-
-    <!-- <h1> Two way DataBinding </h1> -->
-
-      <!-- <h1 style="text-align: center;"> Password Generator</h1>
-    <app-password-generator>
-    </app-password-generator> -->
 
   <!-- <h3> Sending Data from child to parent</h3>
   <app-test2 [child]="parentToChild" (fromChild)="onParent($event)"></app-test2>
@@ -30,8 +25,117 @@
   </app-test2>
   <app-card [title]="posts[0].title"[content]="posts[0].content"></app-card>
   <app-card [title]="posts[1].title"[content]="posts[1].content"></app-card>
+
 </div> -->
-<app-ctop (childTop)="childToParent($event)"></app-ctop>
+<!-- <app-ctop (childTop)="childToParent($event)"></app-ctop>
+<app-ng-for></app-ng-for>
+<-- <app-pract-ngif></app-pract-ngif> -->
+<!-- <app-drop-down></app-drop-down>
+<app-ngswitch></app-ngswitch>
+<app-ng-class></app-ng-class>
+<app-ngif></app-ngif> -->
+<!-- <div id="dir">
+  <app-assign-directive></app-assign-directive>
+</div> -->
+<!-- <p appCustom> Normal Paragraph</p> -->
+
+<!-- <mat-slide-toggle>Toggle me!</mat-slide-toggle> -->
+<!-- <app-templateform></app-templateform> -->
+<!-- <app-student-form></app-student-form> -->
+<!-- <app-reactiveform></app-reactiveform> -->
+<!-- <app-react-assign></app-react-assign> -->
+
+<!-- <app-password-generator></app-password-generator> -->
+<!-- <app-student-form></app-student-form> -->
+
+<!-- <app-reactive-assign></app-reactive-assign> -->
+<!-- <app-ngswitch></app-ngswitch> -->
+
+<!-- <ng-container *ngFor="let product of products">
+  Product Name : <strong class="text-success">{{product.name}}</strong>
+  Product Id : <strong class="text-success">{{product.id}}</strong>
+  </ng-container> -->
+  <!-- <app-pipe></app-pipe> -->
+  <h3> Service Assignment </h3>
+  <!-- <app-simpleform></app-simpleform> -->
+
+  <!-- <p appCustom> This is employee information table </p>
+  <div class="row justify-content-center">
+     <div class="col-md-8">
+
+    <label for="serch"> Search by name</label>
+
+    <input type="text" class="form-control" placeholder="Search By Name"
+    [(ngModel)]="namesearch">
+     </div>
+   <div class="col-md-8 justify-content-center" >
+  <table class="table table-bordered">
+    <thead>
+      <tr>
+        <th>ID</th>
+        <th>Name</th>
+        <th>Username</th>
+        <th>Company</th>
+        <th>Email</th>
+        <th>Phone</th>
+        <th>Website</th>
+        <th>Address</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr *ngFor="let user of userData | search: namesearch">
+        <td>{{user.id}}</td>
+        <td>{{user.name}}</td>
+        <td>{{user.username}}</td>
+        <td>{{user.company.name}}</td>
+        <td>{{user.email}}</td>
+        <td>{{user.phone}}</td>
+        <td>{{user.website}}</td>
+        <td>{{user.address.suite}},{{user.address.street}},{{user.address.city}}-{{user.address.zipcode}}</td>
+      </tr>
+    </tbody>
+
+  </table>
+</div>
+  </div> -->
+  <!-- <div class="container">
+  <div class="row">
+    <div class="col-md-6">
+     <div>
+      <app-comp1></app-comp1>
+     </div>
+    </div>
+    <div class="col-md-6">
+      <div>
+       <app-comp2></app-comp2>
+      </div>
+    </div>
+    <div class="col-md-6">
+      <div>
+       <app-comp3></app-comp3>
+      </div>
+    </div>
+    <div class="col-md-6">
+      <div>
+       <app-comp4></app-comp4>
+      </div>
+    </div>
+  </div>
+</div> -->
+
+<header>
+  <nav>
+    <ul class="nav nav-tabs">
+      <li class="nav-item"> <a routerLinkActive="active" routerLink="/home" class="nav-link">Home </a></li>
+      <li class="nav-item"> <a routerLinkActive="active" routerLink="/aboutus" class="nav-link">AboutUs </a></li>
+      <li class="nav-item"> <a routerLinkActive="active" routerLink="/contactus" class="nav-link">ContactUs </a></li>
+      <li class="nav-item"> <a routerLinkActive="active" routerLink="/product" class="nav-link"> Products </a></li>
+      <li class="nav-item"> <a routerLinkActive="active" routerLink="/post" class="nav-link"> Post </a></li>
+      <li class="nav-item"> <a routerLinkActive="active" routerLink="/user" class="nav-link"> User </a></li>
+    </ul>
+  </nav>
+</header>
+<router-outlet></router-outlet>
 
 
 

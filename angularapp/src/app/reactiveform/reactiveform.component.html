@@ -115,9 +115,12 @@
                 <p>Username: <strong>  {{ myReactiveForm.get('userDetails.username').value}}</strong></p>
                 <p>Email: <strong>  {{ myReactiveForm.get('userDetails.email').value}}</strong></p>
                 <p>Course: <strong>  {{ myReactiveForm.get('course').value}}</strong></p>
-               
+
               </div>
           </div>
       </div>
   </div>
 </div>
+<input type="date" [(ngModel)]="age">
+<button type="button" (click)="ageCalculator()"> Calculate </button>
+<p *ngIf="age">{{showAge}}</p>
